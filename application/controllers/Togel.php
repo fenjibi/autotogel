@@ -19,7 +19,7 @@ class Togel extends CI_Controller {
 		$data['header'] = $this->get_header();
 		$data['footer'] = $this->get_footer();
 		$data['country-live'] = base_url("assets/js/".$country."-live.js");
-		$this->parser->parse('togel', $data);
+		$this->parser->parse($country, $data);
 	}
 	public function get_lengkap() {
 		$country = $this->uri->segment(1);
@@ -64,7 +64,9 @@ class Togel extends CI_Controller {
 		$header_data = array(
 			'base_url' => base_url(),
 			'sgp_lengkap_link' => base_url("sgp/hasil-lengkap"),
-			'sgp_lengkap' => 'Hasil Lengkap SGP'
+			'sgp_lengkap' => 'Hasil Lengkap SGP',
+			'macau45toto_link' => base_url("macau45toto"),
+			'macau45toto' => 'Macau45Toto',
 		);
 		return $this->parser->parse('partial/header', $header_data, true);
 	}

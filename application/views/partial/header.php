@@ -9,9 +9,11 @@
 			<nav class="nav" id="nav">
 				<ul class="toggle">
 					<li><a href="{sgp_lengkap_link}">{sgp_lengkap}</a></li>
+					<li><a href="{macau45toto_link}">{macau45toto}</a></li>
 				</ul>
-				<ul class="">
+				<ul>
 					<li><a href="{sgp_lengkap_link}">{sgp_lengkap}</a></li>
+					<li><a href="{macau45toto_link}">{macau45toto}</a></li>
 				</ul>
 			</nav>
 			<a class="res-nav_click animated wobble wow"  href="javascript:void(0)"><i class="fa-bars"></i></a>
