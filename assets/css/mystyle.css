@@ -13,3 +13,6 @@ th, td{
 .footer_section #footer{
 	text-align: center;
 }
+tbody span, thead:nth-child(n+2) th{
+	color: #2b0566;
+}
